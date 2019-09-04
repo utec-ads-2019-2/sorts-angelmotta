@@ -18,7 +18,7 @@ void Tester::sorts(int *array, size_t size) {
     Sort* sort;
     int temp[size];
 
-    for (int i = MERGE; i <= MERGE; i++) {
+    for (int i = BUBBLE; i <= MERGE; i++) {
         copy(array, array + size, temp);
         sort = getSort(static_cast<Algorithm>(i), temp, size);
         //printArray(temp, size);
