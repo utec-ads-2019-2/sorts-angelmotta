@@ -1,3 +1,0 @@
-/Users/angelinux/CLionProjects/algoritmos_structuras/Project_Sort_Angelinux/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/angelinux/CLionProjects/algoritmos_structuras/Project_Sort_Angelinux/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/angelinux/CLionProjects/algoritmos_structuras/Project_Sort_Angelinux/cmake-build-debug/CMakeFiles/Project_Sort_Angelinux.dir
