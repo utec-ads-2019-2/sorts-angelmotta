@@ -8,9 +8,16 @@ class InsertSort : public Sort {
         InsertSort(int *elements, size_t size) : Sort(elements, size) {}
 
         void execute() {
-            // TODO
+            for(int i=1; i<size; ++i){      // start since the second number so the first unsorted element
+                int unsorted_element = elements[i];
+                int j = i -1;
+                while(j >= 0 && elements[j] > unsorted_element){
+                    elements[j+1] = elements[j];
+                    j -= 1;
+                }
+                elements[j+1] = unsorted_element;
+            }
         }
-
         inline string name() { return "InsertSort"; }
 };
 

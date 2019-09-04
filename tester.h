@@ -36,6 +36,7 @@ class Tester {
 
     public:
         static void sorts(int *, size_t);
+        static void printArray(int *array, size_t size);
 };
 
 #endif
